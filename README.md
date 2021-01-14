@@ -1,27 +1,32 @@
 # Predictive-Aanalytics-using-SAS
 Predictive Models for Mobile Advertising
-The data for this project comes from the mobile advertising space. In order to encourage consumers to install its app (e.g. a game), an app developer advertises its app on other apps (e.g., other games) through a mobile advertising platform. These other apps are developed by other game publishers. Consumers who view the ads on these other apps, can click on the ad to install the app from the developer. We will refer to the advertising app developer as the advertiser and the other apps as publishers. See figure below. 
+
+The data for this project comes from the mobile advertising space. In order to encourage consumers to install its app (e.g. a game), an app developer advertises its app on other apps (e.g., other games) through a mobile advertising platform. These other apps are developed by other game publishers. Consumers who view the ads on these other apps, can click on the ad to install the app from the developer. We will refer to the advertising app developer as the advertiser and the other apps as publishers. 
 
 
 
+The dataset for this project contains data about ads from one particular advertiser through multiple publishers. Each observation corresponds to one ad shown to a consumer on a particular publisher app. The observation contains information about the publisher id, consumer’s device characteristics, and whether the advertiser’s app was installed or not. The description of the variables are given below.
 
-
-
-
-
-
-
-The dataset for this project contains data about ads from one particular advertiser through multiple publishers. Each observation corresponds to one ad shown to a consumer on a particular publisher app. The observation contains information about the publisher id, consumer’s device characteristics, and whether the advertiser’s app was installed or not. The description of the variables are given below. 
 Variable	Type	Description
+
 publisher_id_class	Categorical	Publisher Id
+
 device_make_class	Categorical	Device Manufacturer
+
 device_platform_class	Categorical	Phone OS Type (iPhone / Android)
+
 device_os_class	Categorical	Phone OS Version
+
 device_height	Numerical	Display Height (in pixels)
+
 device_width	Numerical	Display Width (in pixels)
+
 Resolution	Numerical	Display Resolution (pixels per inch)
+
 device_volume	Numerical	Device Volume when Ad was displayed
+
 Wifi	Numerical	Whether WiFi was enabled when ad was displayed (Yes = 1, No = 0)
+
 Install	Binary	Whether Consumer Installed Advertiser’s App (Yes = 1, No = 0)
 
 
